@@ -1,5 +1,3 @@
 #!/bin/bash
 
-systemctl enable ssh
-
-while true; do sleep 1000; done
+service ssh start & while true; do sleep 1000; done
